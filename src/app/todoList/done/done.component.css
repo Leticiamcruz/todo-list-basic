@@ -1,0 +1,18 @@
+.checkbox{
+   background-color: #8F4A88;
+    border:solid #8F4A88 ;
+    border-radius: 80px;
+    width: 40px;
+    height: 20px;
+    color:#8F4A88;
+}
+
+.list_done{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    font-size: 18px;
+    flex-flow:row;
+    justify-content: space-around;
+    font-size: 18px;
+}

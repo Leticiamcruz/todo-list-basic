@@ -1,0 +1,113 @@
+/*
+body{
+    background-color: rgb(192, 148, 218);
+    font-size: 50px;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+   text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    border-radius: 50px;
+    width: 850px;
+    align-items: center;
+    margin-left: 1000px;
+    flex-direction: column;
+}
+/*
+.list{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: rgb(192, 148, 218);
+    background-color:rgb(192, 148, 218);
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    margin-left: 150px;
+}
+.input_list{
+    display: flex;
+    margin-left: 225px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button{
+    font-size: 22px;
+}
+
+.text{
+    width: 250px;
+    height: 24px;
+}
+
+.checkbox::after{
+    content: "";
+    position: absolute;
+    display: none;
+    left: 9px;
+    top: 5px;
+    border: solid white;
+    width: 5px;
+    border-width: 0 3px 3px 0;
+    height: 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+input:checked ~ .checkbox::after{
+    display: block;
+    background-color: rgb(153, 32, 153);
+}
+
+.todoStatus{
+    color:rgb(153, 32, 153);
+    text-decoration: line-through;
+}
+
+.remover_button{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.font-effect-neon{
+    color: rgb(108, 57, 155);
+}
+*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+body{
+    font-size: 50px;
+    padding: 8px;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    text-shadow: 4px 4px 4px rgb(65, 8, 62);
+    border: solid #FFEBF2;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #8C6574;
+    width: 800px;
+    margin-left: 1000px;
+    margin-top: 200px;
+    color:white;
+}

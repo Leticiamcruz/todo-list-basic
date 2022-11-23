@@ -1,0 +1,13 @@
+
+<div>
+    <input class="text" #textValue type="text" [(ngModel)]="clear" (keydown.enter)="addTodos(textValue.value)">
+    <button class="button" type="button" (click)="addTodos(textValue.value)">Adiconar</button>
+    <h1> Tarefas a fazer:</h1>
+    <div *ngFor="let todo of listTodos">
+  <div *ngIf="!todo.done" class="list_undone">
+    <input class="checkbox" type="checkbox" [(ngModel)]="todo.done" (ngModelChange)="todoStatus($event)">
+    <h3  class="font-effect-neon" >{{ todo.name }}</h3>
+    <button class="remover_button" type="button" (click)="remove(todo.id)">X</button> 
+</div>
+</div>
+</div>

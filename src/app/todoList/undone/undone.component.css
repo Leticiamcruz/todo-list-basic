@@ -1,0 +1,47 @@
+.text{
+    border:solid #8F4A88 ;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+}
+
+.button{
+    border:solid #8F4A88 ;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    color:#8F4A88;
+    font-size: 25px;
+}
+
+.checkbox{
+    border:solid #8F4A88 ;
+    border-radius: 80px;
+    width: 40px;
+    height: 20px;
+    color:#8F4A88;
+}
+
+.checkbox::after{
+    background-color: #D42853;
+}
+
+.remover_button{
+    border:solid #8F4A88 ;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    color:#8F4A88;
+    font-size: 25px;
+}
+
+.list_undone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    font-size: 18px;
+    flex-flow:row;
+    justify-content: space-around;
+    font-size: 18px;
+}

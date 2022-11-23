@@ -1,0 +1,7 @@
+<h1>Tarefas Feitas:</h1>
+<div *ngFor="let todo of listTodos"  >
+<div *ngIf=" todo.done === true" class="list_done">
+    <input class="checkbox" type="checkbox" [(ngModel)]="todo.done" (ngModelChange)="todoStatus()">
+   <h2 [ngClass]="{'todoStatus': todo.done === true}"  > {{todo.name}}</h2>
+</div>
+</div>
